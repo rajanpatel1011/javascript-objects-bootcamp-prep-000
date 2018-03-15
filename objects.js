@@ -9,7 +9,7 @@ return Object.assign({},playlist,{[artistName]:songTitle})
  
 }
 function removeFromPlaylist(playlist,artistName){
-   playlist.artistName=[Nan];
+   playlist.artistName=[''];
    delete playlist.artistName;
   return playlist;
 }
