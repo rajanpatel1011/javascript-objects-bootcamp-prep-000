@@ -9,6 +9,7 @@ return Object.assign({},playlist,{[artistName]:songTitle})
  
 }
 function removeFromPlaylist(playlist,artistName){
-  delete playlist.artistName;
-  return ;
+   playlist.artistName=[Nan];
+   delete playlist.artistName;
+  return playlist;
 }
